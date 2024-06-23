@@ -1,8 +1,10 @@
-<h1>About this site</h1>
-<p>TODO...</p>
-<a href="/about">Home</a>
 
+
+<h1>{data.title}</h1>
+<div>{@html data.content}</div>
 <script>
+// @ts-nocheck
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
